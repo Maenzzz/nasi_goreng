@@ -18,6 +18,7 @@
                 <option value="C03">C03 - Harddisk</option>
                 <option value="D04">D04 - Mouse Pad</option>
                 <option value="D05">D05 - Mouse laptop</option>
+		<option value="E05">E05 - Headset</option>
                 </select>          </td>
         </tr>
         <tr>
@@ -41,7 +42,8 @@
               <option value="Jakarta">Jakarta</option>
               <option value="Bandung">Bandung</option>
               <option value="Padang">Padang</option>
-              <option value="Yogyakarta">Yogyakarta</option>            
+              <option value="Yogyakarta">Yogyakarta</option>
+	      <option value="Bogor">Bogor</option>
             </select>
           </td>
         </tr>
@@ -85,6 +87,11 @@ if ($kode=="C03"){
 if ($kode=="D04"){
 	$nama="Mouse Pad";
 	$harga=5000;
+}
+
+if ($kode=="E05"){
+	$nama="Headset";
+	$harga=750000;
 }
 
 $subtotal=$harga*$jumlah;
