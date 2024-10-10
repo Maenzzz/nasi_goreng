@@ -15,7 +15,7 @@
                 <option>-- Silahkan Pilih --</option>
                 <option value="A01">A01 - Speaker</option>
                 <option value="B02">B02 - Mouse</option>
-                <option value="C03">C03 - Harddisk</option>
+                <option value="C03">C03 - SSD</option>
                 <option value="D04">D04 - Mouse Pad</option>
                 <option value="D05">D05 - Mouse laptop</option>
                 </select>          </td>
