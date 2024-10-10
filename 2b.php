@@ -17,6 +17,7 @@
                 <option value="B02">B02 - Mouse</option>
                 <option value="C03">C03 - Harddisk</option>
                 <option value="D04">D04 - Mouse Pad</option>
+		<option value="D05">D05 - Mouse Gaming</option>
                 <option value="E05">E05 - Mouse laptop</option>
 		<option value="F06">F06 - HeadPhone</option>
 		<option value="G07">G07 - TWS</option>
