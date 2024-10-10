@@ -5,7 +5,7 @@
 <title>Hitung Penjualan Barang</title>
 </head>
 <body >
-	<div align="center"><br />PERHITUNGAN PENJUALAN BARANG 2b.php</div> <br /><br />
+	<div align="center"><br />PERHITUNGAN PENJUALAN BARANG TOKO YSS</div> <br /><br />
 <form id="form1" name="form1" method="post" action="2b.php">
   <table width="300" border="1" align="center">
         <tr>
@@ -18,6 +18,9 @@
                 <option value="C03">C03 - Harddisk</option>
                 <option value="D04">D04 - Mouse Pad</option>
                 <option value="D05">D05 - Mouse laptop</option>
+		<option value="D06">D06 - P Didi</option>
+		<option value="D07">D07 - Monitor Wireless</option>
+		<option value="D08">D08 - VGA Wireless</option>
                 </select>          </td>
         </tr>
         <tr>
@@ -86,6 +89,27 @@ if ($kode=="D04"){
 	$nama="Mouse Pad";
 	$harga=5000;
 }
+
+if ($kode=="D05"){
+	$nama="Mouse Laptop";
+	$harga=5000;
+}
+
+if ($kode=="D06"){
+	$nama="P Didi";
+	$harga=5000;
+}
+
+if ($kode=="D06"){
+	$nama="Layar Wireless";
+	$harga=5000;
+}
+
+if ($kode=="D07"){
+	$nama="VGA Wireless";
+	$harga=5000;
+}
+
 
 $subtotal=$harga*$jumlah;
 
